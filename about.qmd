@@ -1,0 +1,21 @@
+---
+title: "About"
+editor: visual
+format:
+  revealjs: 
+    theme: "serif"
+date: last-modified
+---
+
+- #topic1
+- ## main idea/abstract
+- ## the other thing
+    - one thing
+    - the second thing
+- ![a link](google.com)
+
+::: fragment.fade.out
+a moving thing
+::: fragment.fade.in
+
+[return home] (index.qmd)
