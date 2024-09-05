@@ -4,7 +4,7 @@
     "href": "sub2.html",
     "title": "Submission 2",
     "section": "",
-    "text": "x &lt;- rnorm(50) y &lt;- rnorm(50) plot(x, y, main = “Scatter Plot”, pch = 19) ```` ::: (.callout-note) This is a callout block.\n\n\n\ncol1\ncol2\ncol3\n\n\n\n\n1\n3\n4\n\n\n5\n8\n10\n\n\n4\n8\n9\n\n\n\na simple knowledge \\(Y = \\alpha + \\beta \\cdot x + epsilon\\) this is very simple. lets do math. If you use single dollar sign, the line will be in the same line as the math equation. So, may be useful for writing conclusion.\na simple knowledge \\[Y = \\alpha + \\beta \\cdot x\\] this is very simple. lets do math.\na simple knowledge \\[\\hat{Y} = \\alpha + \\beta \\cdot x + \\epsilon \\] this is very simple. lets do math.\n$$\n^{a}_{i=1} =\n$$\n$$\n\\[\\begin{bmatrix}\n1 & 0 & 0 & 0 \\\\\n0 & 1 & 0 & 0\\\\\n0 & 0 & 1 & 0 \\\\\n0 & 0 & 0 & 1\n\\end{bmatrix}\\]\n$$"
+    "text": "x &lt;- rnorm(50)\ny &lt;- rnorm(50)\nplot(x, y, main = \"Scatter Plot\", pch = 19)\n\n\n\n\n\n\n\n\n\nThis is a callout block.\n\n\n\n\ncol1\ncol2\ncol3\n\n\n\n\n1\n3\n4\n\n\n5\n8\n10\n\n\n4\n8\n9\n\n\n\na simple knowledge \\(Y = \\alpha + \\beta \\cdot x + epsilon\\) this is very simple. lets do math. If you use single dollar sign, the line will be in the same line as the math equation. So, may be useful for writing conclusion.\na simple knowledge \\[Y = \\alpha + \\beta \\cdot x\\] this is very simple. lets do math.\na simple knowledge \\[\\hat{Y} = \\alpha + \\beta \\cdot x + \\epsilon \\] this is very simple. lets do math.\n$$\n^{a}_{i=1} =\n$$\n$$\n\\[\\begin{bmatrix}\n1 & 0 & 0 & 0 \\\\\n0 & 1 & 0 & 0\\\\\n0 & 0 & 1 & 0 \\\\\n0 & 0 & 0 & 1\n\\end{bmatrix}\\]\n$$"
   },
   {
     "objectID": "index.html",
