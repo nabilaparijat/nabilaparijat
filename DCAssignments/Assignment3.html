@@ -139,6 +139,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="dropdown-item" href="../DCAssignments/Assignment3.html">
  <span class="dropdown-text">Assignment 3</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../DCAssignments/Assignment4.html">
+ <span class="dropdown-text">Assignment 4</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
@@ -180,6 +184,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#latent-semantic-analysis-httpsquanteda.ioreferencetextmodel_lsa.html" id="toc-latent-semantic-analysis-httpsquanteda.ioreferencetextmodel_lsa.html" class="nav-link" data-scroll-target="#latent-semantic-analysis-httpsquanteda.ioreferencetextmodel_lsa.html">Latent Semantic Analysis (https://quanteda.io/reference/textmodel_lsa.html)</a></li>
   </ul></li>
+  <li><a href="#sample-program-for-using-quanteda-for-text-modeling-and-analysis" id="toc-sample-program-for-using-quanteda-for-text-modeling-and-analysis" class="nav-link" data-scroll-target="#sample-program-for-using-quanteda-for-text-modeling-and-analysis">Sample program for using quanteda for text modeling and analysis</a></li>
   </ul>
 </nav>
     </div>
@@ -405,19 +410,20 @@ features          @kamalaharris @hillaryclinton @billclinton @cbsnews
 </div>
 </div>
 <p>The above network graph shows Twitter accounts. Lines attached to the Twitter accounts show connections with other accounts, for example, through retweets, mentions, replies, etc.Accounts with more connections are more influential within their network. <span class="citation" data-cites="nba">@nba</span> and <span class="citation" data-cites="politico">@politico</span>, for example, have the most connections with other accounts within their network.</p>
+<hr>
+</section>
+</section>
+<section id="sample-program-for-using-quanteda-for-text-modeling-and-analysis" class="level1">
+<h1>Sample program for using quanteda for text modeling and analysis</h1>
+<p>Documentation: vignette(“quickstart”, package = c(“quanteda.textstats”, “quanteda.textmodels”)</p>
+<p>Website: https://quanteda.io/</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Sample program for using quanteda for text modeling and analysis</span></span>
-<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a><span class="do">## Documentation: vignette("quickstart", package = c("quanteda.textstats", "quanteda.textmodels")</span></span>
-<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a><span class="do">## Website: https://quanteda.io/</span></span>
-<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(quanteda) </span>
-<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(quanteda.textmodels) </span>
-<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(quanteda.textplots) </span>
-<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr) </span>
-<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2) </span>
-<span id="cb31-12"><a href="#cb31-12" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"quanteda.textstats"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(quanteda) </span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(quanteda.textmodels) </span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(quanteda.textplots) </span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr) </span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2) </span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"quanteda.textstats"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Warning: package 'quanteda.textstats' was built under R version 4.3.3</code></pre>
 </div>
@@ -601,7 +607,6 @@ docs                   begin      the expression       of     those
 </div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
